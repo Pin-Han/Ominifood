@@ -1,0 +1,156 @@
+/*  computer   */
+@media only screen and (max-width:1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+
+
+
+}
+
+/*  small tablet to big tablet   */
+@media only screen and (max-width:1023px) {
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .logo-copy {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .step-boxs {
+        margin-top: 10px;
+    }
+
+    .step-boxs:first-child {
+        margin-top: 10px;
+    }
+
+    .works-step:last-of-type {
+        margin-bottom: 60px;
+    }
+
+    .works-step {
+        margin-bottom: 40px;
+    }
+
+    .step-boxs:last-child {
+        margin-top: 10px;
+    }
+
+    .app-screen {
+        width: 50%;
+    }
+
+    .city-feature {
+        font-size: 90%;
+    }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0.5%;
+    }
+
+    .plan-price {
+        font-size: 250%;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+}
+
+
+/*  ipad tablet phone   */
+@media only screen and (max-width:767px) {
+    body {
+        font-size: 70%;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    h1 {
+        font-size: 180;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    .logo-copy {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .works-step div {
+        padding: 8px;
+        height: 45px;
+        width: 45px;
+    }
+
+    .works-step p {
+        padding-top: 2%;
+        font-size: 125%;
+    }
+
+    .works-step:last-of-type {
+        margin-bottom: 20px;
+    }
+
+    .app-screen {
+        width: 40%;
+    }
+
+    .step-boxs:first-child {
+        text-align: center;
+    }
+
+    .plan-box {
+        margin-bottom: 2%;
+        margin-left: 0%;
+
+    }
+}
+
+/*  small phone   */
+@media only screen and (max-width:480px) {
+    section {
+        padding: 25px 0;
+    }
+    footer{
+        padding: 20px 10px;
+    }
+    footer .row{
+        text-align: center;
+    }
+    footer ul{
+        width: 100%;
+    }
+}
