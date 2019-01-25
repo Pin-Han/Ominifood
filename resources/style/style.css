@@ -30,8 +30,8 @@ html {
 }
 
 header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../style/img/hero.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../style/img/hero.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../images/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -204,11 +204,13 @@ input[type=submit]:active {
     cursor: pointer;
     display: none;
 }
+
 .mobile-nav-icon i {
     font-size: 200%;
     color: white;
 
 }
+
 /*sticky*/
 .sticky {
     position: fixed;
