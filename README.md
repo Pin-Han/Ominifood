@@ -1,3 +1,3 @@
 Ominifood
 
-Use asic Html Css Javascript
+Use basic Html Css Javascript
